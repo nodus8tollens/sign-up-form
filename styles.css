@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url("./media/Norse-Bold.otf");
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left {
+  background-image: url("./media/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  object-fit: fill;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.logo-image {
+  height: inherit;
+  content: url("./media/logo.png");
+}
+
+.logo-text {
+  color: white;
+  font-family: Norse;
+  font-size: 8rem;
+  align-self: center;
+}
+
+.image-footer {
+  color: white;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 1vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: whitesmoke;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: large;
+  font-weight: bolder;
+  padding: 5%;
+  font-family: monospace, sans-serif;
+}
+
+.first-paragraph {
+  position: relative;
+  top: 20%;
+  padding-right: 20%;
+}
+
+.second-paragraph {
+  position: relative;
+  bottom: 10%;
+}
+
+.middle {
+  height: 30%;
+}
+
+.bottom {
+  background-color: whitesmoke;
+  height: 35%;
+}
