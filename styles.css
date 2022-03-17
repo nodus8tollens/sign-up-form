@@ -68,6 +68,7 @@ body {
   height: 35%;
   display: flex;
   flex-direction: column;
+  gap: 3vh;
   justify-content: space-evenly;
 }
 
@@ -82,6 +83,7 @@ p {
   position: relative;
   top: 20%;
   padding-right: 20%;
+  margin-bottom: 5vh;
 }
 
 .second-paragraph {
@@ -91,9 +93,49 @@ p {
 
 .middle {
   height: 30%;
+  font-family: monospace, sans-serif;
+}
+
+h2 {
+  padding-left: 5%;
+  margin-bottom: 3%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5%;
+}
+
+input,
+label {
+  display: block;
+}
+
+.input-label {
+  padding-bottom: 1vh;
 }
 
 .bottom {
   background-color: whitesmoke;
   height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: monospace, sans-serif;
+}
+
+button {
+  background-color: #596d48;
+  font-size: 2vh;
+  font-family: monospace, sans-serif;
+  font-weight: bolder;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 2% 0 2% 5%;
+}
+
+.log-in {
+  padding-top: 0;
 }
